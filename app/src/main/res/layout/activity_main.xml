@@ -43,7 +43,7 @@
         android:src="@drawable/weather"/>
 
     <androidx.appcompat.widget.AppCompatButton
-
+        android:id="@+id/goButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -54,7 +54,7 @@
         android:textColor="@android:color/black"/>
 
     <androidx.appcompat.widget.AppCompatButton
-
+        android:id="@+id/exitButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
