@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My First weather app"
+        android:textSize="32sp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ST10494672"
+        android:textSize="25sp"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jordan Knipe"
+        android:textSize="29sp"
+        android:fontFamily="monospace"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:src="@drawable/weather"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="200dp"
+        android:background="#369c4c"
+        android:text="App toe"
+        android:textColor="@android:color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="20dp"
+        android:background="#d64520"
+        android:text="Exit"
+        android:textColor="@android:color/holo_red_dark" />
+
+
+
+</LinearLayout>
